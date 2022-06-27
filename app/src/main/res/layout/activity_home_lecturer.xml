@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:viewBindingIgnore="true"
+    android:background="@drawable/clg"
+    tools:context=".provided.HomeLecturer">
+
+
+    <Button
+        android:id="@+id/profileL"
+        android:layout_width="218dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="164dp"
+        android:text="Profile"
+        app:backgroundTint="#009688"
+        app:layout_constraintBottom_toTopOf="@+id/scheduleL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <Button
+        android:id="@+id/scheduleL"
+        android:layout_width="218dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="52dp"
+        android:text="My Schedule"
+        app:backgroundTint="#009688"
+        app:layout_constraintBottom_toTopOf="@+id/aboutL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/aboutL"
+        android:layout_width="218dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="196dp"
+        android:text="About"
+        app:backgroundTint="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

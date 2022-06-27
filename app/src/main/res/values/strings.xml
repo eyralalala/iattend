@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">fyp</string>
+    <string name="please_wait">Please wait</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget sapien nibh. Donec fermentum quam ut ullamcorper gravida. Pellentesque vestibulum dapibus lacus, viverra ultricies turpis vehicula vel. Donec rhoncus feugiat egestas. Curabitur dolor nibh, feugiat ac est nec, sodales consectetur odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis nulla in massa hendrerit gravida. Integer eleifend suscipit nisi, in tempus erat egestas non. Nulla facilisi.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lecturer_dashboard">Lecturer Dashboard</string>
+    <string name="choose_what_to_do">Choose what to do</string>
+    <string name="search">Search</string>
+    <string name="student_dashboard">Student Dashboard</string>
+    <string name="no_student_has_attended_your_exam">No student has attended this exam</string>
+</resources>

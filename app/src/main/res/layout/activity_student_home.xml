@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/clg"
+    android:layout_height="match_parent"
+    tools:context=".ui.student.StudentHome">
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/st_nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/st_nav_graph"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomBar"/>
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bottom_nav_bg"
+        app:backgroundColor="@android:color/transparent"
+        app:iconTint="@color/black"
+        app:iconTintActive="@color/purple_500"
+        app:menu="@menu/menu_bottom"
+        app:indicatorColor="#E2CAFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:textColor="@color/purple_500"
+        app:textSize="14sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

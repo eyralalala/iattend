@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/st_nav_graph.xml"
+    app:startDestination="@id/main_profile">
+
+    <fragment
+        android:id="@+id/main_profile"
+        android:name="com.example.fyp.ui.student.frags.StudentProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_student_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/main_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/main_home"
+        android:name="com.example.fyp.ui.student.frags.StudentHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_student_home">
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/main_about" />
+    </fragment>
+    <fragment
+        android:id="@+id/main_about"
+        android:name="com.example.fyp.ui.student.frags.StudentAboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_student_about" />
+</navigation>
